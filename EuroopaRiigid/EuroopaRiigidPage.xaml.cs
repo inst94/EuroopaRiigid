@@ -22,6 +22,7 @@ namespace EuroopaRiigid
         Button lisa_btn, kustuta_btn, muuda_btn;
         public EuroopaRiigidPage()
         {
+            //data
             riigid = new ObservableCollection<EuroopaRiigidData>
             {
                 new EuroopaRiigidData {Nimetus="Eesti", Linn="Tallinn", Rahvaarv="426538", Pilt="tallinn.jpg"},
